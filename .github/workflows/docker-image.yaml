@@ -64,8 +64,8 @@ jobs:
           push: true
           build-args: |
             REF=${{ github.ref_name }}
-            TOOLBOX_BRAND_NAME_LONG="SLAIF AI Vision Toolbox by ViCoS"
-            TOOLBOX_BRAND_NAME_SHORT="SLAIF Toolbox"
+            TOOLBOX_BRAND_NAME_LONG=SLAIF AI Vision Toolbox by ViCoS
+            TOOLBOX_BRAND_NAME_SHORT=SLAIF Toolbox
           build-contexts: |
             branding=.
           tags: ${{ steps.meta.outputs.tags }}
