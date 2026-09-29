@@ -1,5 +1,9 @@
 ## SLAIF AI Vision Toolbox by ViCoS
-This is the public repository of the AI Vision Toolbox made by [ViCoS](https://vicos.si/) for [SLAIF](https://slaif.si/). It is distributed by 
+This is the public repository of the AI Vision Toolbox made by [ViCoS](https://vicos.si/) for [SLAIF](https://slaif.si/). It is distributed as a docker image, which you can obtain 
+from dockerhub:
+```bash
+docker pull vicoslab/slaif-ai-vision-toolbox:latest
+```
 
 ### Development
 The toolbox is validated and developed on a linux-based operating system running an nvidia gpu[^1].
