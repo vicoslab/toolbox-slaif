@@ -1,0 +1,17 @@
+{
+    "anomaly_detection": {
+        "title": "Anomaly detection",
+        "description": "Detect defective samples based on existing known good (and bad) images.",
+        "tags": [
+            "anomaly detection"
+        ]
+    },
+    "object_detection": {
+        "title": "Object detection",
+        "description": "Detect or track objects with training-free methods, or use annotated data with trainable method to predict additional properties.",
+        "tags": [
+            "detection",
+            "segmentation"
+        ]
+    }
+}
